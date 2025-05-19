@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Guppy Registration Form</title>
+  <link rel="stylesheet" href="bootstrap-5.3.5-dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <script src="js/signup.js" defer></script>
+</head>
+<body>
+  <div class="container d-flex justify-content-center align-items-center min-vh-100">
+    <div class="row border rounded-5 p-3 bg-white shadow box-area">
+
+      <!-- left box -->
+      <div class="col-md-6 rounded-4 d-flex justify-content-center align-items-center flex-column left-box">
+        <div class="feautured-image mb-3">
+          <img src="resources/logo.png" class="img-fluid" style="width: 250px;" />
+        </div>
+        <p class="text-black fs-2" style="font-family: 'Courier New', Courier, monospace; font-weight: 600;">Guppy.co</p>
+      </div>
+
+      <!-- right box -->
+      <div class="col-md-6 right-box">
+        <form id="signUpForm" class="row align-items-center">
+          <div class="header-text mb-4">
+            <h3>Sign up</h3>
+            <p>Guppy will be a memorable experience.</p>
+
+            <div class="input-group mb-3">
+              <input id="signUpUsername" type="text" class="form-control form-control-lg bg-light fs-6" placeholder="Your Name" />
+            </div>
+            <div class="input-group mb-3">
+              <input id="signUpEmail" type="email" class="form-control form-control-lg bg-light fs-6" placeholder="Your Email" />
+            </div>
+            <div class="input-group mb-3">
+              <input id="signUpPassword" type="password" class="form-control form-control-lg bg-light fs-6" placeholder="Password" />
+            </div>
+            <div class="input-group mb-4">
+              <input id="repeatPassword" type="password" class="form-control form-control-lg bg-light fs-6" placeholder="Repeat your password" />
+            </div>
+            <div class="form-check mb-4">
+              <input type="checkbox" class="form-check-input" id="termsCheck" />
+              <label for="termsCheck" class="form-check-label text-secondary"><small>I agree to all statements in <a href="#!">Terms of service</a></small></label>
+            </div>
+            <div class="input-group mb-3">
+              <button type="submit" id="registerBtn" class="btn btn-lg btn-primary w-100 fs-6">Register</button>
+            </div>
+            <div class="row">
+              <small>Already have an account? <a href="logIn.html">Login</a></small>
+            </div>
+          </div>
+        </form>
+      </div>
+
+    </div>
+  </div>
+</body>
+</html>
